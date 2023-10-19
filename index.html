@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante NombreTuRestaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Slice Pizza</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <img src="/imagenes/pizza3.jpg" alt="Platillo Destacado">
+        <h2>Bienvenido a Slice Pizza </h2>
+        <p>Descubre la exquisitez en cada bocado.</p>
+        <a href="#reservas" class="btn">Hacer una reserva</a>
+    </section>
+
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <p>Explora nuestra deliciosa selección de platillos.</p>
+        <ul>
+            <li>
+                <img src="/imagenes/istockphoto-471456061-612x612.jpg" alt="Platillo 1">
+                <h3>Platillo 1</h3>
+                <p>Descripción del platillo 1.</p>
+                <span class="precio">$15.99</span>
+            </li>
+            <li>
+                <img src="/imagenes/pizza.jpg" alt="Platillo 2">
+                <h3>Platillo 2</h3>
+                <p>Descripción del platillo 2.</p>
+                <span class="precio">$12.99</span>
+            </li>
+            <!-- Agrega más platillos aquí -->
+        </ul>
+    </section>
+
+    <section id="reservas">
+        <h2>Haz una Reserva</h2>
+        <p>Reserva una mesa para una experiencia culinaria inolvidable.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+            <button type="submit" class="btn">Reservar Mesa</button>
+        </form>
+    </section>
+
+    <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <p>Encuéntranos en:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.791319806316!2dTU-LONGITUD!3dTU-LATITUD!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU2JzQ2LjYiTi4wOScxOC45Ilc!5e0!3m2!1sen!2sus!4vTU-TUMAPA!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estamos aquí para ayudarte. ¡Ponte en contacto!</p>
+        <address>
+            <p>Dirección: Calle Dirección, Ciudad, País</p>
+            <p>Teléfono: +123 456 789</p>
+            <p>Correo Electrónico: info@nombreturestaurante.com</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 NombreTuRestaurante. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
